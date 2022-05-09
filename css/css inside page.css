@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/*--header--*/
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    color: blue;
+}
+
+header div a {
+    color: blue;
+}
+
+header div a:nth-child(4) {
+    color: red;
+}
+
+header span i {
+    color: red;
+}
+
+
+header div {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+header div>* {
+    margin-right: 50px;
+}
+
+header span {
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+.button {
+    position: relative;
+    background-color: blue;
+    color: white;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0 / 10%);
+    transition: .4s;
+}
+
+.button:hover .overlay {
+    left: 0;
+}
+
+
+
+header span a {
+    color: red;
+}
+
+
+.footer1 {
+    background-color: blue;
+
+    padding-top: 60px
+}
+
+.footer2 {
+
+
+
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 38px;
+    font-size: 35px;
+
+}
+
+.imagenose {
+    transition-duration: 1000ms;
+    position: relative;
+    left: 330px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.imagenose:hover {
+    transition-duration: 1000ms;
+    margin-left: 100px;
+}
+
+.text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.text>* {
+    color: black;
+}
+
+.firsttext {
+
+    color: blue;
+}
+
+.lasttext {
+    background-color: blue;
+    padding-bottom: 25px;
+    text-align: center;
+    position: relative;
+    color: white;
+
+
+}
+
+.iconf {
+    width: 45px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    position: fixed;
+    left: 10px;
+}
+
+.iconw {
+    width: 45px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    position: fixed;
+    left: 10px;
+    top: 225px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 20px;
+    height: 500px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div>* {
+    margin: 20px;
+}
+
+footer div:nth-child(2) {
+    align-items: flex-end;
+}

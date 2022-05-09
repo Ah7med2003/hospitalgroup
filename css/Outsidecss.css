@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    color: blue;
+}
+
+header div a {
+    color: blue;
+}
+
+header div a:nth-child(4) {
+    color: red;
+}
+
+header span i {
+    color: red;
+}
+
+
+header div {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+header div>* {
+    margin-right: 50px;
+}
+
+header span {
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+.button {
+    position: relative;
+    background-color: blue;
+    color: white;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0 / 10%);
+    transition: .4s;
+}
+
+.button:hover .overlay {
+    left: 0;
+}
+
+
+
+header span a {
+    color: red;
+}
+
+
+
+
+
+.first {
+    transition: 1000ms;
+    width: 530px;
+    height: 400px;
+    margin-left: 400px;
+    border-radius: 10px 10px 10px 10px;
+
+
+}
+
+.first:hover {
+
+    transition-duration: 1000ms;
+    margin-left: 100px;
+}
+
+.second {
+
+    position: relative;
+    left: 645px;
+    font-size: 45px;
+    color: blue;
+
+
+}
+
+.information {
+    position: relative;
+    left: 490px;
+    bottom: 81px;
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 20px;
+    height: 500px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div>* {
+    margin: 20px;
+}
+
+footer div:nth-child(2) {
+    align-items: flex-end;
+}
+
+
+.batna {
+    transition: 1000ms;
+    width: 530px;
+    height: 400px;
+    margin-left: 400px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.batna:hover {
+
+    transition-duration: 1000ms;
+    margin-left: 100px;
+}
+
+.information2 {
+
+
+    position: relative;
+    left: 490px;
+    bottom: 81px;
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
