@@ -1,0 +1,71 @@
+body {
+background-image: url(OIPS.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 20px;
+        }
+     h1 {
+        text-align:center ;
+        padding: 30px;
+        margin: 30px;
+        text-shadow: px4000;
+        font-size: 300%;
+
+        }
+        p { 
+            text-align:left; 
+            padding: 30px;
+        margin: 30px;
+        text-shadow: px4000;
+        font-size: 0.6cm ;
+        }
+        div1 {
+            border-top: 0.6cm;
+            font-size: 150% ;
+    }
+    div3 {
+        border-top: 0.6cm;
+        font-size: 150% ;
+    }
+    div2 {
+        border-top: 0.6cm;
+        font-size: 150% ;
+    }
+    ul {
+       text-align: left;
+        border-top: 0.8cm;
+        font-size: 200% ;
+        }
+        div4 {
+            border-top: 0.6cm;
+            font-size: 150% ;
+        }
+        div5 {
+            border-top: 0.6cm;
+            font-size: 150% ;
+        }
+        ul {
+            border-top: 0.6cm;
+            font-size: 150% ;
+        }
+        p3 {
+               font-style: initial;
+               text-align:center ;
+               padding: 30px;
+               margin: 30px;
+               text-shadow: px4000;
+               font-size: 300%;               ;     
+        }
+        div6 {
+            font-style: initial;
+            text-align:center ;
+            padding: 30px;
+            margin: 30px;
+            text-shadow: px4000;
+            font-size: 300%;     
+            border-top: 0.6cm;
+            font-size: 150% ;
+        }
+        #signup {
+            display: none;
+        }
