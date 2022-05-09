@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>beauty</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            color: black;
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        /*--header--*/
+
+        header {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding: 20px;
+            color: blue;
+        }
+
+        header div a {
+            color: blue;
+        }
+
+        header div a:nth-child(4) {
+            color: red;
+        }
+
+        header span i {
+            color: red;
+        }
+
+
+        header div {
+            display: flex;
+            margin-right: 30px;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        header div>* {
+            margin-right: 50px;
+        }
+
+        header span {
+            cursor: pointer;
+            margin-left: 30px;
+            font-size: 50px;
+        }
+
+
+
+
+
+
+
+        .button {
+            position: relative;
+            background-color: blue;
+            color: white;
+            width: 130px;
+            height: 130px;
+            overflow: hidden;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0 0 0 / 10%);
+            transition: .4s;
+        }
+
+        .button:hover .overlay {
+            left: 0;
+        }
+
+
+
+        header span a {
+            color: red;
+        }
+
+        #explain {
+            background-color: blue;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 50px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+
+        #all_par {
+            text-align: end;
+        }
+
+        #all_par div h1 {
+            color: blue;
+            text-decoration: underline;
+            font-size: 25px;
+        }
+
+        #all_par div:nth-child(10) {
+            text-align: center;
+
+        }
+
+        #all_par div:nth-child(10) ul {
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            margin-top: 20px;
+            height: 500px;
+        }
+
+        footer div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer div>* {
+            margin: 20px;
+        }
+
+        footer div:nth-child(2) {
+            align-items: flex-end;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <div>
+            <img src="css/images/logo1.png" alt="image" width="100" height="100">
+
+
+            <a href="index.html">الرئيسية</a>
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="">اتصل بنا</a>
+            <a href="Hospital.html">التسجيل</a>
+        </div>
+    </header>
+    <h1 id="explain">
+        الامراض الجلديه والتجميل و الليزر
+    </h1>
+    <img src="imgs/Dermatology.jpg" alt="image">
+    <div id="all_par">
+        <p id="par_1">
+
+            لدى مستشفي مصر الدولي فريق متخصص من الأخصائيين يرأسهم كبار أطباء الجلد لضمان صحة بشرتك.
+            يقدم قسم الأمراض الجلدية في مستشفي مصر الدولي العلاج الشامل للمشاكل السريرية والتجميلية المتعلقة بالبشرة
+            والشعر والأظافر. نسعى جاهدين لمحو العيوب التجميلية والمضاعفات السريرية ونمنحك بشرة متوهجة صحية. يتم إجراء
+            العمليات التجميلية المتخصصة بما في ذلك عمليات إزالة الجلد الدقيقة والتقشير الكيميائي لندبات حب الشباب
+            الخفيفة والمعتدلة والتجاعيد والخطوط الدقيقة والجلد المتضرر من أشعة الشمس والإجراءات الجراحية للترددات
+            الراديوية مثل إزالة الزوائد الجلدية والثآليل والنمش والوحمات والشامات (وحمة) بشكل روتيني من قبل خبراء في
+            القسم.
+
+
+            وتشمل الخدمات الأخرى التي يقدمها القسم إزالة والنمش و الطفح الجلدي والشامات والرؤوس السوداء. يعالج الفريق
+            المختص من الأطباء أيضًا الأمراض المنقولة جنسيًا. يتم إجراء أخذ عينات من الجلد في حالات أورام الجلد. تتيح
+            غرفة العمليات المجهزة جيدًا في القسم للمرضى الخضوع لجميع الإجراءات الجلدية.
+            يمتلك قسم الأمراض الجلدية جميع التسهيلات لإدارة الأمراض الجلدية.
+
+            فيما يلي أبرز مقتطفات القسم:
+        </p>
+        <div>
+            <h1>البوتوكس والحشو</h1>
+            <p>
+
+                يتم حقن البوتوكس في عضلات الوجه المفرطة النشاط. هذا له تأثير وضع العضلات في "السبات" لمدة 4 إلى 6 أشهر ،
+                مما يسبب تأثيرًا سلسًا للتجاعيد الناتجة عن نشاط العضلات. كما أنه يستخدم لإضعاف العضلات التي تتسبب في شد
+                الوجه لأسفل ، مما يؤدي إلى رفع مؤقت.
+                الحشو هو مادة طبيعية واضحة وقابلة للتحلل. يمنح الحشو جمال طبيعي فوري وطويل الأمد.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>اللمحات الكيميائية</h1>
+            <p>
+                طريقة العلاج الفعال للبثور والتصبغ (البقع) والسيطرة على الشكل العمري.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>معالجة الترددات الراديوية</h1>
+            <p>
+                تقنية متقدمة لإزالة الزوائد الجلدية والبقع و الوحمات أو أي نمو آخر على الجلد.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>علاج حب الشباب</h1>
+            <p>
+                السيطرة المتخصصة على حب الشباب بالأدوية ، وأنظمة العناية بالبشرة الأخرى. كما يتم علاج ندبات حب الشباب
+                والتصبغ.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>المسح الجلدي</h1>
+            <p>
+                مسح الجلد لمعالجة الندبات والتشوهات الصبغية.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>علاج البهاق (البقع البيضاء)
+            </h1>
+            <p>
+                يتم علاجها بشكل فعال هنا بالأدوية والخيارات الجراحية المختلفة مثل التطعيم والوشم وما إلى ذلك.
+
+
+            </p>
+        </div>
+        <div>
+            <h1>ترميم الشعر وزرعه
+                خيارات العلاج الفعال المتاحة لـ:</h1>
+            <ul>
+                <li>*الصلع (ذكور وإناث)
+
+                </li>
+                <li>*فقدان الشعر غير مكتمل
+
+                </li>
+                <li>*الزرع من أجل تساقط الشعر بالكامل.
+
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h1>لمزيد من المعلومات حول أقسام المستشفى برجاء الاتصال بنا على الخط الساخن : 16010</h1>
+
+            <p>
+            </p>
+        </div>
+        <div>
+            <h1>
+                Panel of Doctors
+            </h1>
+            <p>
+
+            <ul>
+                <li>Prof.Doctor. Mohamed Nada</li>
+
+                <li>Prof.Doctor. Mostafa Abo El Ela
+
+                </li>
+                <li>Prof.Doctor. Ahmed Mohamed Nada</li>
+                <li>Prof.Doctor. Rania Refaat
+
+                </li>
+
+            </ul>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h2>اتصل بنا</h2>
+            <img src="css/images/logo7.jpg" alt="image">
+            <p>
+                ش12 السراى ميدان فيني الدقي ، الجيزه<br> قريب من فندق وكازينو شيراتون القاهرة
+            </p>
+        </div>
+        <div>
+
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="">اخر الاخبار</a>
+            <a href="">اتصل بنا</a>
+
+
+        </div>
+        <div>
+            <img src="css/images/logo2.png" alt="image">
+            <img src="css/images/logo3.png" alt="image">
+        </div>
+    </footer>
+
+</body>
+
+</html>

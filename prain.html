@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="describtion" content="مستشفي مصر التخصصي. الرعاية التي تستحقها">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <title>مستشفي مصر التخصصي</title>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: white;
+            padding: 60px;
+            margin: -10px;
+        }
+
+        /* -------------------------------------------------------------------------------------- */
+        header a {
+            float: right;
+            text-decoration: none;
+            color: blue;
+            margin-right: 60px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+
+        /* ------------------------------------------------------------------------------------ */
+        header img {
+            width: 90px;
+            height: 80px;
+            margin-top: -40px;
+            margin-left: 30px;
+            margin-right: 80px;
+            float: right;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+        .tit h1 {
+            text-align: center;
+            color: white;
+            background-color: rgb(0, 81, 255);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            margin: -10px;
+            padding: 60px;
+            margin-bottom: 15px;
+        }
+
+        header span a {
+            color: red;
+        }
+
+        /* -------------------------------------------------------------------------------- */
+        footer {
+            display: block;
+            padding: 70px;
+            padding-bottom: 150px;
+            padding-top: 100px;
+            margin-top: 120px;
+            margin-right: -10px;
+            margin-left: -10px;
+            margin-bottom: 20px;
+            background-color: rgb(32, 32, 50);
+        }
+
+        .logo1 {
+            padding: 20px;
+            float: right;
+            margin-top: -60px;
+            margin-right: 50px;
+        }
+
+        .logo2 {
+            padding: 20px;
+            float: right;
+            margin-top: -25px;
+            margin-right: 45px;
+        }
+
+        .phone {
+            margin-left: 300px;
+        }
+
+        .links {
+            display: block;
+            margin-top: -295px;
+        }
+
+        footer a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            /* line-height: 3; */
+            text-indent: 810px;
+            /* direction: rtl; */
+            margin-top: -5px;
+            margin-bottom: 30px;
+        }
+
+        .callus {
+            text-align: left;
+            margin-left: 360px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .address {
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            margin-left: 260px;
+            line-height: 40px;
+            direction: rtl;
+        }
+
+        .cat {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            text-align: center;
+            margin-left: -50px;
+        }
+
+        .ex {
+            margin-left: 600px;
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+        div h2 {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            padding-right: 150px;
+        }
+
+        p {
+            direction: rtl;
+            padding-right: 150px;
+            letter-spacing: 0.7px;
+            word-spacing: 1px;
+            font-weight: 600;
+            color: rgb(127, 116, 116);
+        }
+
+        .ex2 {
+            max-width: 30%;
+            margin-left: 500px;
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+        #psyco {
+            display: none;
+        }
+
+        #apoplexy {
+            display: none;
+        }
+
+        #painting {
+            display: none;
+        }
+
+        #booking {
+            margin-left: 40%;
+            display: none;
+        }
+
+        .book {
+            display: inline-block;
+            background-color: rgb(11, 68, 255);
+            color: white;
+            max-width: 500px;
+            border-radius: 10px;
+            padding: 7px 50px;
+            margin-left: 40%;
+        }
+    </style>
+    <script type="text/javascript">
+        function morePsy() {
+            document.getElementById('psyco').style.display = 'block';
+        }
+        function lessPsy() {
+            document.getElementById('psyco').style.display = 'none';
+        }
+        function moreApo() {
+            document.getElementById('apoplexy').style.display = 'block';
+        }
+        function lessApo() {
+            document.getElementById('apoplexy').style.display = 'none';
+        }
+        function morePai() {
+            document.getElementById('painting').style.display = 'block';
+        }
+        function lessPai() {
+            document.getElementById('painting').style.display = 'none';
+        }
+        function book() {
+            document.getElementById('booking').style.display = 'block';
+        }
+        function hideBook() {
+            document.getElementById('booking').style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/logo1.png" alt="">
+        <a href="index.html">الرئيسية</a>
+        <a href="we.html">من نحن</a>
+        <span><a href="department.html">اقسامنا الطبية</a></span>
+        <a href="">اتصل بنا</a>
+        <a href="Hospital.html">التسجيل</a>
+    </HEader>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <div class="tit">
+        <h1> <bdi>المخ والاعصاب</bdi> - اقسامنا الطبية</h1>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <br>
+    <h2 class="cat">المخ والاعصاب والطب النفسي</h2>
+    <img class="ex" src="imgs/neuropsychiatry-05.jpg" alt="" onclick="morePsy()" ondblclick="lessPsy()">
+    <div id="psyco">
+        <h2>الطب النفسي العصبي</h2>
+        <br>
+        <p>يتعامل قسم الطب النفسي العصبي مع مجموعة متنوعة من الاضطرابات النفسية التي تسببها تشوهات الدماغ النفسية أو
+            العوامل النفسية. كما نحاول أيضًا علاج المرضى النفسيين الذين</p>
+        <p>يعانون من مضاعفات جسدية أو اضطرابات عضوية. يقدم قسمنا الرعاية الفائقة للمرضى الذين يعانون من اأمراض ذهنية او
+            عصبية</p>
+        <br>
+        <br>
+        <h2>سياسة التشخيص والعلاج</h2>
+        <br>
+        <p>
+            نحن نقدم تقييمات بيولوجية ونفسية اجتماعية شاملة ونهدف إلى الرفاهية العقلية للمرضى من خلال الرعاية بما في ذلك
+            العلاج الدوائي والعلاج بالصدمات الكهربائية المعدلة والدعم</p>
+        <p>النفسي والاجتماعي بما في ذلك العلاج المهني والعلاج الجماعي والعمل الاجتماعي.</p>
+        <br>
+        <br>
+        <h2>التخصصات</h2>
+        <p>
+            الانفصام ، اضطرابات المزاج ، الاضطرابات النفسية و الشيخوخة ، الصرع</p>
+        <p>اضطرابات النمو مثل التوحد واضطراب نقص الانتباه وفرط الحركة</p>
+        <p>(ADHD)</p>
+        <p> تشخيص وعلاج المرحلة البدائية من الانفصام</p>
+        <p>تشخيص وعلاج اضطراب الهلع واضطراب القلق</p>
+        <p>الطب النفسي للمرضى الذين يعانون من اضطرابات جسدية</p>
+        <br>
+        <br>
+        <h2>الأمراض التي نناظرها</h3>
+            <br>
+            <p>الاضطرابات الذهنية مثل: (الانفصام ، اضطرابات المزاج القطب والاكتئاب (، *الاضطرابات النفسية العضوية مثل:
+                (الشيخوخة و الصرع</p>
+            <p>الاضطرابات العصبية مثل اضطراب القلق واضطراب الهلع ، الاضطرابات المتعلقة بالتوتر ، اضطرابات النمو مثل
+                التوحد و فرط الحركة</p>
+            <br>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <h2 class="cat">وحدة السكته الدماغية</h2>
+    <img class="ex2" src="imgs/Mobile-stroke-unit-exterior-scaled.jpg" alt="" onclick="moreApo()"
+        ondblclick="lessApo()">
+    <div id="apoplexy">
+        <p>تحدث السكتة الدماغية عندما ينقطع تدفق الدم إلى جزء من الدماغ بسبب انسداد في تدفق الدم أو عندما يكون هناك نزيف
+            بسبب انفجار الأوعية الدموية</p>
+        <br>
+        <p>من خدر أو وخز جانب واحد من الجسم. من الضروري طلب الاستشارة الطبية العاجلة في حالة حدوث أي من هذه الأحداث عن
+            طريق الاتصال برقم 16010</p>
+        <p>توفر وحدة السكتة الدماغية في مستشفي مصر الدولي الرعاية المثلى لمجموعة كاملة من المشاكل التي يمكن أن تسببها
+            السكتة الدماغية أو الحدث العصبي</p>
+        <br>
+        <p>تحتوي غرف المرضى على مساحة للعائلات والزوار الذين يتم الترحيب بهم دائمًا ، لأننا نعتقد أنهم جزء مهم من شبكة
+            دعم مرضى السكتة الدماغية</p>
+        <br>
+        <p>يعد مركز وحدة السكتة الدماغية في مستشفي مصر الدولي مكانًا مثاليًا للعائلة للانتظار بينما يتلقى المريض علاجات
+            متكررة وفحوصات تقدم من الاستشارين ، طاقم التمريض ، أخصائيي</p>
+        <p>العلاج الطبيعي ، العلاج المهني وأعضاء آخرين من فريقنا المتخصص</p>
+        <br>
+        <p>خصصت وحدة العلاج الطبيعي لدينا طاقم متخصص في السكتة الدماغية وإعادة التأهيل العصبي. مع صالة رياضية مجهزة
+            بالكامل ومناطق علاجية ، يتوفر العلاج لجميع المرضى في الجناح</p>
+        <p>وفي وحدة العلاج الطبيعي. تتوفر العلاجات بعد الخروج من العيادة الخارجية وفي المنزل</p>
+        <br>
+        <p>يمكن لوحدة السكتة الدماغية الوصول إلى مجموعة كاملة من الخدمات المتاحة في مستشفى مصر الدولي بما في ذلك التصوير
+            الحديث بما في ذلك أحدث أجهزة التصوير بالرنين</p>
+        <p>المغناطيسي والتصوير المقطعي ، وأمراض القلب غير الغازية الشاملة ، واختبارات الدم السريعة والامراض.</p>
+        <br>
+        <p>
+            وحدة السكتة الدماغية هي وحدة متخصصة ملتزمة بتقديم أكثر أشكال العلاج فعالية ونجاحًا لإعادة تأهيل المرضى.
+            العلاج خاص بالمريض ولكن مجموعة خدماتنا تقع بشكل فريد تحت</p>
+
+        <p>سقف واحد ، مما يجعل العملية بأكملها أكثر راحة للمرضى</p>
+        <br>
+        <br>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <h2 class="cat">وحدة رسم المخ والاعصاب</h2>
+    <img class="ex2" src="imgs/eeg.serendipityThumb.jpeg" alt="" onclick="morePai()" ondblclick="lessPai()">
+    <div id="painting">
+        <h2>الفسيولوجيا العصبية</h2>
+        <p>
+            يتضمن الفسيولوجيا العصبية اختبار الوظائف الكهربائية للدماغ والحبل الشوكي والأعصاب في الأطراف والعضلات. هناك
+            طريقتان للقيام بذلك في مستشفى مستشفي مصر الدولي هما</p>
+        <p>إيكو لقياس كهربية العضلات و إيكو لقياس كهربية الدماغ.</p>
+        <br>
+        <h2>
+            إيكو لقياس كهربية العضلات ومراقبة التوصيل العصبي (EMG & NCS)</h2>
+        <p>
+            تقيم هذه الاختبارات وظيفة الجهاز العصبي. وهي مفيدة بشكل خاص في مجالات الفسيولوجيا العصبية مثل متلازمة النفق
+            الرسغي ، إصابات الأعصاب . كما أنها توفر أدلة تأكيدية على</p>
+        <p>آفات جذر العصب (اعتلال الجذور العنقية والقطنية) واضطرابات العضلات.</p>
+        <br>
+        <h2>لمزيد من المعلومات حول أقسام المستشفى برجاء الاتصال بنا على الخط الساخن : 16010</h2>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <hr>
+    <div class="book" onclick="book()" ondblclick="hideBook()">
+        <h1>احجز الان</h1>
+    </div>
+    <div id="booking">
+        <br>
+        <label for="fn">First name</label>
+        <input type="text" required placeholder="first name" id="fn">
+        <br>
+        <br>
+        <label for="ln">Last name</label>
+        <input type="text" required placeholder="last name" id="ln">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" required id="age">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" required placeholder="input a valied email" id="email">
+        <br>
+        <br>
+        <input type="checkbox" id="pcy">
+        <label for="psy">مخ واعصاب وطب نفسي</label>
+        <br>
+        <br>
+        <input type="checkbox" id="paint">
+        <label for="paint">وحدة رسم المخ</label>
+
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <footer>
+        <p class="callus">اتصل بنا</p>
+        <img class="phone" src="imgs/Hotline.png" alt="">
+        <img class="logo1" src="imgs/cl-logo1.png" alt="">
+        <br>
+        <img class="logo2" src="imgs/cl-logo2.png" alt="">
+        <p class="address">
+            12 ش السراى ميدان فيني الدقي ، الجيزة
+            <br>
+            قريب من فندق وكازينو شيراتون
+            القاهرة
+        </p>
+        <div class="links">
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="https://www.google.com/?hl=ar">اخر الاخبار </a>
+            <a href="https://www.google.com/?hl=ar">اتصل بنا</a>
+        </div>
+    </footer>
+    <script>
+
+    </script>
+</body>
+
+</html>

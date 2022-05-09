@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="describtion" content="مستشفي مصر التخصصي. الرعاية التي تستحقها">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <title>مستشفي مصر التخصصي</title>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: white;
+            padding: 60px;
+            margin: -10px;
+        }
+
+        /* -------------------------------------------------------------------------------------- */
+        header a {
+            float: right;
+            text-decoration: none;
+            color: blue;
+            margin-right: 60px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+
+        /* ------------------------------------------------------------------------------------ */
+        header img {
+            width: 90px;
+            height: 80px;
+            margin-top: -40px;
+            margin-left: 30px;
+            margin-right: 80px;
+            float: right;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+        .tit h1 {
+            text-align: center;
+            color: white;
+            background-color: rgb(0, 81, 255);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            margin: -10px;
+            padding: 60px;
+            margin-bottom: 15px;
+        }
+
+        header span a {
+            color: red;
+        }
+
+        /* -------------------------------------------------------------------------------- */
+        footer {
+            display: block;
+            padding: 70px;
+            padding-bottom: 150px;
+            padding-top: 100px;
+            margin-top: 120px;
+            margin-right: -10px;
+            margin-left: -10px;
+            margin-bottom: 20px;
+            background-color: rgb(32, 32, 50);
+        }
+
+        .logo1 {
+            padding: 20px;
+            float: right;
+            margin-top: -60px;
+            margin-right: 50px;
+        }
+
+        .logo2 {
+            padding: 20px;
+            float: right;
+            margin-top: -25px;
+            margin-right: 45px;
+        }
+
+        .phone {
+            margin-left: 300px;
+        }
+
+        .links {
+            display: block;
+            margin-top: -295px;
+        }
+
+        footer a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            /* line-height: 3; */
+            text-indent: 810px;
+            /* direction: rtl; */
+            margin-top: -5px;
+            margin-bottom: 30px;
+        }
+
+        .callus {
+            text-align: left;
+            margin-left: 360px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .address {
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            margin-left: 260px;
+            line-height: 40px;
+            direction: rtl;
+        }
+
+        .cat {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            text-align: center;
+            margin-left: -50px;
+        }
+
+        .ex {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        div h2 {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            padding-right: 150px;
+        }
+
+        p {
+            direction: rtl;
+            padding-right: 150px;
+            letter-spacing: 0.7px;
+            word-spacing: 1px;
+            font-weight: 600;
+            color: rgb(127, 116, 116);
+        }
+
+        .ex2 {
+            max-width: 30%;
+            margin-left: 500px;
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+        #psyco {
+            display: none;
+        }
+
+        #apoplexy {
+            display: none;
+        }
+
+        #painting {
+            display: none;
+        }
+
+        #book {
+            margin-left: 40%;
+            display: none;
+        }
+
+        .book {
+            display: inline-block;
+            background-color: rgb(11, 68, 255);
+            color: white;
+            max-width: 500px;
+            border-radius: 10px;
+            padding: 7px 50px;
+            margin-left: 40%;
+        }
+    </style>
+    <script type="text/javascript">
+        function morePsy() {
+            document.getElementById('psyco').style.display = 'block';
+        }
+        function lessPsy() {
+            document.getElementById('psyco').style.display = 'none';
+        }
+        function moreApo() {
+            document.getElementById('apoplexy').style.display = 'block';
+        }
+        function lessApo() {
+            document.getElementById('apoplexy').style.display = 'none';
+        }
+        function morePai() {
+            document.getElementById('painting').style.display = 'block';
+        }
+        function lessPai() {
+            document.getElementById('painting').style.display = 'none';
+        }
+        function book() {
+            document.getElementById('book').style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/logo1.png" alt="">
+        <a href="index.html">الرئيسية</a>
+        <a href="we.html">من نحن</a>
+        <span><a href="department.html">اقسامنا الطبية</a></span>
+        <a href="">اتصل بنا</a>
+        <a href="Hospital.html">التسجيل</a>
+    </header>
+    <!--  ------------------------------------------------------------------------------------------- -->
+    <div class="tit">
+        <h1> <bdi>طب الأطفال و جراحه الأطفال </bdi> - اقسامنا الطبية</h1>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <hr>
+    <h2 class="cat"> طب الأطفال و جراحه الأطفال </h2>
+    <img class="ex" src="imgs/Pediatrics-and-Pediatric-Surgery.jpg" alt="" onclick="morePsy()" ondblclick="lessPsy()">
+    <div id="psyco">
+
+        <hr>
+        <p>في مستشفي مصر الدولي ، نقدم رعاية طبيه متخصصة للرضع و الاطفال و المراهقين الذين تتراوح أعمارهم بين الولاده و
+            حتي 18 عامآ .</p>
+        <p>كان قسم طب الاطفال من اوائل الأقسام التي بدأت مع أقسام الطب العام و أمراض النساء و التوليد في مستشفي مصر
+            الدولي . يتميز قسم طب الاطفال بأنه يقدم أفضل رعايه الاطفال . يقدم القسم رعايه شامله بدءا من الرعاية الوقائيه
+            إلي توجيه المهارات الحياتيه للرضع و الاطفال أثناء تقديم الخدمات للأطفال الذين يعانون من حالات طبيه مختلفة ،
+            فإننا نتبع نهجا متعدد التخصصات بمساعده فريق من أطباء الاطفال ، جراحي الاطفال ، ممرضات الاطفال ، اخصائيو
+            التغذية و مستشارو التخصص الفرعيون الاخرون </p>
+        <br>
+        <br>
+
+        <br>
+        <p>
+            المشاكل الصحية الشائعة لدي الأطفال مثل الالتهابات و الاورام الخبيثة و الاورام العضوية و الاختالالات و العيوب
+            الجينية و ما إلي ذلك يتم علاجها من قبل الأطباء المتخصصين في المستشفي . </p>
+
+        <br>
+        <hr>
+        <h2>وحده حديثي الولادة </h2>
+
+        <p>يحتوي قسم الأطفال و حديثي الولاده علي واحدة من أحدث وحدات الرعاية المركزة للأطفال المجهزة بمراوح و شاشات عرض
+            و ما إلي ذلك . يتعامل القسم مع جميع أنواع حالات الأطفال البسيطة و الطارئة بما في ذلك جراحات الاطفال . ويضم
+            القسم ما يلي * رعاية الاطفال حديثي الولاده و الأطفال المبتسرين * خدمات ذات مستوي عالمي في التهوية و الرعاية
+            المفتوحة * أجهزة تنفس لحديثي الولاده * أفضل وحدات علاج * نقل الدم وحدة <mark> أمراض الجهاز الهضمي </mark> *
+            أجراء عمليات بالمنظار للأطفال - الأضطرابات الهضمية و قرحه المعدة
+        </p>
+        <p> * التشخيص بالمنظار العلوي للجهاز الهضمي / تنظير القولون /ERCP .</p>
+
+        <p> * إزالة الأجسام الغربية . </p>
+        <br>
+        <hr>
+        <h2>وحدة جراحة الأطفال </h3>
+            <br>
+            <p>نحن نقدم العلاج الجراحي للرضع و الأطفال و المراهقين الذين يعانون من تشوهات خلقية و مشاكل طارئة </p>
+            <p>بدعم من فريق من الاسشاريين ذوي الخبرة العالية ، يقدم قسم جراحة الأطفال خدمات عالمية ، يقدم قسم جراحة
+                الأطفال خدمات المستوي تتمحور حول الأسرة لتشخيص و علاج التشوهات الخلقية و أمراض الطفوله و الأصابات يتم
+                أجراء العمليات الجراحيه من قبل جراحي الأطفال الي جانب جراحي أخرين متخصصين في حالات الأطفال مثل جراحه
+                العظام و الجراحه العامة و طب الأنف و الأذن و الحنجره و المسالك البوليه و جراحه الفم و العيون ، و ما إلي
+                ذلك </p>
+            <p>الي جانب العمليات الجراحيه العامه ، يتم إجراء العمليات الجراحيه بالمنظار للأطفال في القسم للأطفال الذين
+                يعانون من حالات مختلفة مثل الخصيه المتعلقه و التهاب الزائده الدوديه وما يلي ذلك . كما يتم تقديم العلاج
+                الجراحي لمشاكل المسالك البوليه لدي الاطفال مثل صمامات مجري البول الخلفيه و الارتجاع المثاني الحالبي و ما
+                الي ذلك . يتم أجراء هذه العمليات الجراحيه بمزيج مثالي م أحدث التقنيات و فريق من المهنييين الطبيين ذوي
+                الخبرة العالية . </p>
+            <p>* جميع العمليات الجراحيه حديثه الولاده - ناسور القصبه الهوائيه و المرئ </p>
+            <p>*جراحات المسالك البولية </p>
+            <p> *جراحات البطن </p>
+            <p>*استئصال الزائدة الدوديه </p>
+            <p>*الفتق </p>
+
+            <h2>لمزيد من المعلومات حول أقسام المستشفي برجاء الأتصال بما علي الخط الساخن : 16010</h2>
+
+    </div>
+    <!--  ------------------------------------------------------------------------------------------- -->
+
+
+    <hr>
+    <div class="book">
+        <h1 onclick="book()">احجز الان</h1>
+    </div>
+    <br>
+    <div id="book">
+        <label for="fn">First name</label>
+        <input type="text" required placeholder="first name" id="fn">
+        <br>
+        <br>
+        <label for="ln">Last name</label>
+        <input type="text" required placeholder="last name" id="ln">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" required id="age">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" required placeholder="input a valied email" id="email">
+        <br>
+        <br>
+        <input type="radio" id="pcy">
+        <label for="psy">وحدة حديثي الولادة </label>
+
+
+
+        <input type="radio" id="pcy">
+        <label for="psy">وحدة جراحة أطفال </label>
+
+
+        <br>
+        <br>
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/مجدي سمير </label>
+
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/مجدي قطب </label>
+
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/سامح سيد </label>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <br>
+    <footer>
+        <p class="callus">اتصل بنا</p>
+        <img class="phone" src="imgs/Hotline.png" alt="">
+        <img class="logo1" src="imgs/cl-logo1.png" alt="">
+        <br>
+        <img class="logo2" src="imgs/cl-logo2.png" alt="">
+        <p class="address">
+            12 ش السراى ميدان فيني الدقي ، الجيزة
+            <br>
+            قريب من فندق وكازينو شيراتون
+            القاهرة
+        </p>
+        <div class="links">
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="">اخر الاخبار </a>
+            <a href="">اتصل بنا</a>
+        </div>
+    </footer>
+</body>
+
+</html>

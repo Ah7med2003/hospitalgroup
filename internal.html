@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="describtion" content="مستشفي مصر التخصصي. الرعاية التي تستحقها">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <title>مستشفي مصر التخصصي</title>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: white;
+            padding: 60px;
+            margin: -10px;
+        }
+
+        /* -------------------------------------------------------------------------------------- */
+        header a {
+            float: right;
+            text-decoration: none;
+            color: blue;
+            margin-right: 60px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+
+        /* ------------------------------------------------------------------------------------ */
+        header img {
+            width: 90px;
+            height: 80px;
+            margin-top: -40px;
+            margin-left: 30px;
+            margin-right: 80px;
+            float: right;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+        .tit h1 {
+            text-align: center;
+            color: white;
+            background-color: rgb(0, 81, 255);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            margin: -10px;
+            padding: 60px;
+            margin-bottom: 15px;
+        }
+
+        header span a {
+            color: red;
+        }
+
+        /* -------------------------------------------------------------------------------- */
+        footer {
+            display: block;
+            padding: 70px;
+            padding-bottom: 150px;
+            padding-top: 100px;
+            margin-top: 120px;
+            margin-right: -10px;
+            margin-left: -10px;
+            margin-bottom: 20px;
+            background-color: rgb(32, 32, 50);
+        }
+
+        .logo1 {
+            padding: 20px;
+            float: right;
+            margin-top: -60px;
+            margin-right: 50px;
+        }
+
+        .logo2 {
+            padding: 20px;
+            float: right;
+            margin-top: -25px;
+            margin-right: 45px;
+        }
+
+        .phone {
+            margin-left: 300px;
+        }
+
+        .links {
+            display: block;
+            margin-top: -295px;
+        }
+
+        footer a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            /* line-height: 3; */
+            text-indent: 810px;
+            /* direction: rtl; */
+            margin-top: -5px;
+            margin-bottom: 30px;
+        }
+
+        .callus {
+            text-align: left;
+            margin-left: 360px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .address {
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            margin-left: 260px;
+            line-height: 40px;
+            direction: rtl;
+        }
+
+        .cat {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            text-align: center;
+            margin-left: -50px;
+        }
+
+        .ex {
+            margin-left: 600px;
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+        div h2 {
+            direction: rtl;
+            color: rgb(0, 94, 255);
+            padding-right: 150px;
+        }
+
+        p {
+            direction: rtl;
+            padding-right: 150px;
+            letter-spacing: 0.7px;
+            word-spacing: 1px;
+            font-weight: 600;
+            color: rgb(127, 116, 116);
+        }
+
+        .ex2 {
+            max-width: 30%;
+            margin-left: 500px;
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+        #psyco {
+            display: none;
+        }
+
+        #apoplexy {
+            display: none;
+        }
+
+        #painting {
+            display: none;
+        }
+
+        #book {
+            margin-left: 40%;
+            display: none;
+        }
+
+        .book {
+            display: inline-block;
+            background-color: rgb(11, 68, 255);
+            color: white;
+            max-width: 500px;
+            border-radius: 10px;
+            padding: 7px 50px;
+            margin-left: 40%;
+        }
+    </style>
+    <script type="text/javascript">
+        function morePsy() {
+            document.getElementById('psyco').style.display = 'block';
+        }
+        function lessPsy() {
+            document.getElementById('psyco').style.display = 'none';
+        }
+        function moreApo() {
+            document.getElementById('apoplexy').style.display = 'block';
+        }
+        function lessApo() {
+            document.getElementById('apoplexy').style.display = 'none';
+        }
+        function morePai() {
+            document.getElementById('painting').style.display = 'block';
+        }
+        function lessPai() {
+            document.getElementById('painting').style.display = 'none';
+        }
+        function book() {
+            document.getElementById('book').style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/logo1.png" alt="">
+        <a href="index.html">الرئيسية</a>
+        <a href="we.html">من نحن</a>
+        <span><a href="department.html">اقسامنا الطبية</a></span>
+        <a href="">اتصل بنا</a>
+        <a href="Hospital.html">التسجيل</a>
+    </HEader>
+    <!--  ------------------------------------------------------------------------------------------- -->
+    <div class="tit">
+        <h1> <bdi>قسم الباطنه العامه</bdi> - اقسامنا الطبية</h1>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <hr>
+    <h2 class="cat"> امراض البطن و المعده </h2>
+    <img class="ex" src="imgs/getty-13566-517051420-300x200-1.jpg" alt="" onclick="morePsy()" ondblclick="lessPsy()">
+    <div id="psyco">
+        <h2>امراض البطن و المعده </h2>
+        <br>
+        <p>نحن نقدم العلاج لأعراض الجهاز الهضمي بما في ذلك الام البطن و الانتفاخ او فقدان الشهيه </p>
+        <p>تقدم مراكز مستشفي مصر الدولي للرعايه العاجله العلاج لمجموعه واسعه من مشاكل المعده و الامعاء كما اننا قادرون
+            علي توفير الرعايه للمسائل المتعلقه بالكبد او البنكرياس او القناه الصفراويه (الكبد) و التي قد تكون لها اعراض
+            الام في المعده او البطن </p>
+        <hr>
+        <br>
+        <h2>تشمل اعراض المعده و الامعاء الشائعه التي يعاني منها مرضانا ما يلي :</h2>
+        <br>
+        <p>
+            وجع البطن ، النفخ استفراغ او غثيان ، الأسهال و الامساك ، الحمي ، اليرقات ، فقدان الشهيه ، نزيف المستقيم </p>
+
+        <br>
+        <hr>
+        <h2>كيف يمكننا دعم أمراض البطن و الأمعاء </h2>
+        <p>
+            نحن نقدر الأعراض المتعلقه بمشاكل المعده و الأمعاء يمكن أن تكون مقلقه و مع ذلك ، من المهم أن يري الطبيب بسرعه
+            .</p>
+        <p>أطباء الرعايه العاجله لدينا قادرون عل إجراء تقييم و تشخيص مبدئي ، و تقديم رأيهم بشأن أذا كان المريض بحاجه إلي
+            علاج من أخصائي أذا لزم الامر ، و يمكننا إحالتك الي أحد كبار الاستشاريين المتخصصين في مستشفى مصر الدولي ، من
+            اخصائي أمراض الجهاز الهضمي ، و أطباء و جراحي أمراض الكبد ، و الجراحين العامين و جراحي القولون و المستقيم
+            المتخصصين </p>
+
+        <p> التصوير التشخيصي و الإجراءات الاستقصائيه لأمراض البطن و المعده و الأمعاء </p>
+        <p> لدينا أمكانيه وصول الي اختبارات التصوير و التحقيق الرائده لحالات المعده و الكبد و البنكرياس و الأمعاء .</p>
+        <br>
+        <hr>
+        <h2>تتضمن أجراءات التشخيص و التشخيص التي قد تم إحالتك إليها</h3>
+            <br>
+            <p>*الأشعه المقطعيه </p>
+            <p>*الأشعه السينيه</p>
+            <p>*التصوير بالرنين المغناطيسي </p>
+            <p>*مسح الألياف</p>
+            <p>*تنظير القولون </p>
+            <p> *تنظير المعده </p>
+            <h2> يمكن أن يشمل علاج الرعايه العاجله للبطن و المعده و الأمعاء مايلي :</h2>
+            <p>*التقييم و الفحص الكامل </p>
+            <p>*مسكن للألام</p>
+            <p>*المضادات الحيوية(عن طريق الوريد أو الفم. )</p>
+
+            <hr>
+    </div>
+    <!--  ------------------------------------------------------------------------------------------- -->
+
+    <h2 class="cat">أمراض الصدريه </h2>
+    <img class="ex2" src="imgs/chest-pain.jpg" alt="" onclick="moreApo()" ondblclick="lessApo()">
+    <div id="apoplexy">
+        <h2>أمراض الجهاز التنفسي </h2>
+
+        <p>في مستشفى مصر الدولي نعالج شكاوي الجهاز التنفسي و الصدر ، بما في ذلك الربو و مرض الانسداد الرئوي المزمن ، و
+            الم او صعوبه في التنفس ، و عدوي في الصدر ، و ضيق في التنفس و الام في الصدر غير قلبيه </p>
+        <br>
+        <h2>مشاكل الجهاز التنفسي </h2>
+        <p>ستوفر فرق مستشفي مصر الدولي للرعايه العاجله و الحرجه الفحص و التحقيق و العلاج الفوري لمعظم شكاوي الجهاز
+            التنفسي أو الصدر </p>
+
+        <p>في قسم للرعايه العاجله لدينا ، يمكننا إجراء اختبارات الدم و الأشعه السينيه و فحوصات الأشعه المقطعيه التخصصيه
+            داخل المستشفي و الوصول السريع الي الشبكه من كبار الاستشاريين الخاصين المتخصصين في أمراض الجهاز التنفسي أو
+            المشاكل أمراض القلب لمن يمكننا إحالتك لنري لك إما في ذلك اليوم أو في غضون أيام قليله أعتمادا علي إلحاح
+            المشكله </p>
+
+        <p>أذا كانت المشكله تتطلب الحجز بالمستشفي ، فيمكننا ترتيب دخولك إلي مستشفي مصر الدولي بأسرع وقت و يرجي ملاحظه
+            أنه في بعض الحالات الطارئه قد لا يتوفر علاج القلب المتخصص بشكل خاص . أذا كان لديك ألم شديد في الصدر ، أو
+            أعراض نوبه قلبيه ، يرجي الاتصال علي 16010 </p>
+        <br>
+
+        <h2>شكاوي الجهاز التنفسي / الصدر التي نعالجها عادة:</h2>
+
+        <p>* الربو و مرض الانسداد الرئوي المزمن </p>
+        <p>* ألم في التنفس / صعوبه في التنفس </p>
+        <p>* عدوي الصدر </p>
+        <p>* سعال</p>
+        <p>* ضيق التنفس </p>
+        <p>* ألم في الصدر غير قلبي </p>
+        <p>خفقان القلب </p>
+
+        <h2>تقييم لأمراض الصدر و الجهاز التنفسي </h2>
+        <p>* تاريخ المرض الطبي و الفحص الدقيق
+        </p>
+        <p>* مخطط كهربيه القلب "رسم القلب (ECG)"</p>
+
+
+
+        <hr>
+
+        <h2>علاج أمراض الصدر و الجهاز التنفسي </h2>
+        <p>* مسكن للألام </p>
+        <p>* دواء متخصص لمنع تخثر الدم </p>
+        <p>* إعطاء الأكسجين ، أجهزه الاستنشاق و / البخخات حسب حاجه المريض
+        </p>
+
+
+        <hr>
+
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+
+    <h2 class="cat">أمراض الدم </h2>
+    <img class="ex2" src="imgs/download.jpg" alt="" onclick="morePai()" ondblclick="lessPai()">
+    <div id="painting">
+        <h2>الأضطربات الحميده و الخبيثه </h2>
+        <p>يتعامل قسم أمراض الدم و يدير خدمه سريريه مزدحمه مع أكثر من 80 مريضا داخليا ، بما في ذلك 10-15 مريضا زرع
+            الخلايا الجذعيه في أي وقت معين .تشمل الخدمات السريريه الخارجيه : العيادات الخاريجيه : العيادات الخاريجيه ،
+            مع العيادات المنفصله لرعايه ما بعد الزرع ، اللوكيميا / سرطان الغدد الليمفاوية ، سرطان الدم الليمفاوي / سرطان
+            الغدد الليمفاويه و أمراض الدم العامه
+        </p>
+        <hr>
+
+        <p>
+            تشمل الخدمات الاخري مرفقا للرعايه النهاريه للعلاج الكيميائي علي مدار الساعه ، و خدمات شامله لتشخيص و علاج
+            الهيموفيليا و التشخيص السابق للولاده للاضطرابات الدمويه الوراثيه ، علي سبيل المثال لا الحصر </p>
+        <p>* علاج جميع الاورام الخبيثه الدمويه لدي الاطفال و البالغين - سرطان الدم ، سرطان الغدد الليمفاويه ، متلازمه
+            خلل التنسج النقوي .
+        </p>
+
+        <p>* زرع الخلايا الجذعيه لأمراض الثلاسيميا ، و الاورام اللمفاويه و الورم النخاعي ، و متلازمات فشل النخاع العظمي
+            ، و بعض الاضطربات نقص المناعه و اضطابات التمثيل الغذائي * خدمات المختبر المتعلقه بسرطان الدم - قياس التدفق
+            الخلوي و علم الوراثه الخلوي و التشخيص الجزيئي * الخدمات المتعلقه بتشخيص و علاج اضطرابات الهيموجلوبين و
+            اضطرابات تخثر الدم . </p>
+
+        <h2>لمزيد من المعلومات حول أقسام المستشفى برجاء الاتصال بنا على الخط الساخن : 16010</h2>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <hr>
+    <div class="book">
+        <h1 onclick="book()">احجز الان</h1>
+    </div>
+    <br>
+    <br>
+    <div id="book">
+        <label for="fn">First name</label>
+        <input type="text" required placeholder="first name" id="fn">
+        <br>
+        <br>
+        <label for="ln">Last name</label>
+        <input type="text" required placeholder="last name" id="ln">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" required id="age">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" required placeholder="input a valied email" id="email">
+        <br>
+        <br>
+        <input type="radio" id="pcy">
+        <label for="psy">باطنه عامه</label>
+
+        <input type="radio" id="pcy">
+        <label for="psy">أمراض صدريه</label>
+
+        <input type="radio" id="pcy">
+        <label for="psy">أمراض الدم</label>
+
+
+        <br>
+        <br>
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/محمود الضبع</label>
+
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/أسامه جوهري</label>
+
+        <input type="checkbox" id="pcy">
+        <label for="pcy">دكتور/عمرو المنياوي </label>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <br>
+    <footer>
+        <p class="callus">اتصل بنا</p>
+        <img class="phone" src="imgs/Hotline.png" alt="">
+        <img class="logo1" src="imgs/cl-logo1.png" alt="">
+        <br>
+        <img class="logo2" src="imgs/cl-logo2.png" alt="">
+        <p class="address">
+            12 ش السراى ميدان فيني الدقي ، الجيزة
+            <br>
+            قريب من فندق وكازينو شيراتون
+            القاهرة
+        </p>
+        <div class="links">
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="">اخر الاخبار </a>
+            <a href="">اتصل بنا</a>
+        </div>
+    </footer>
+</body>
+
+</html>
