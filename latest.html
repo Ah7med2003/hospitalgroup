@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <title>latest</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        /*--header--*/
+
+        header {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding: 20px;
+            color: blue;
+        }
+
+        header div a {
+            color: blue;
+        }
+
+        header div a:nth-child(4) {
+            color: red;
+        }
+
+        header span i {
+            color: red;
+        }
+
+
+        header div {
+            display: flex;
+            margin-right: 30px;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        header div>* {
+            margin-right: 50px;
+        }
+
+        header span {
+            cursor: pointer;
+            margin-left: 30px;
+            font-size: 50px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 100px 0;
+        }
+
+
+        .box {
+            text-align: end;
+            width: 400px;
+            box-shadow: 10px 10px 30px rgba(0 0 0 / .2), -10px -10px 30px rgba(0 0 0 / .2);
+            border-radius: 10px;
+        }
+
+
+        .box h1 {
+            color: blue;
+        }
+
+
+        footer {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            margin-top: 20px;
+            height: 500px;
+        }
+
+        footer div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer div>* {
+            margin: 20px;
+        }
+
+        footer div:nth-child(2) {
+            align-items: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+
+        <div>
+            <img src="css/images/logo1.png" alt="image" width="100" height="100">
+
+
+            <a href="index.html">الرئيسية</a>
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="">اتصل بنا</a>
+            <a href="Hospital.html">التسجيل</a>
+        </div>
+        <span onclick="changefunc()"><i class="fa-solid fa-paint-roller"></i></span>
+
+
+
+    </header>
+
+    <div class="boxes">
+
+
+        <div class="box">
+            <img src="imgs/device.jpg" alt="" width="100%" height="300">
+            <h1>الخبير هنري شرودر</h1>
+            <p>استقبال والخبير العالمي البروفيسور هنري شرودر ، رئيس جراحة المخ والأعصاب والعمود الفقري في جامعة
+                جرافاسفالد
+                ألمانيا ومناقشة الحالات والعمليات الجراحية في المجالات التالية: أورام […]</p>
+        </div>
+        <div class="box">
+            <img src="imgs/room.jpg" alt="" width="100%" height="300">
+            <h1>الخبير هنري شرودر</h1>
+            <p>استقبال والخبير العالمي البروفيسور هنري شرودر ، رئيس جراحة المخ والأعصاب والعمود الفقري في جامعة
+                جرافاسفالد
+                ألمانيا ومناقشة الحالات والعمليات الجراحية في المجالات التالية: أورام […]</p>
+        </div>
+        <div class="box">
+            <img src="imgs/chair.jpg" alt="" width="100%" height="300">
+            <h1>الخبير هنري شرودر</h1>
+            <p>استقبال والخبير العالمي البروفيسور هنري شرودر ، رئيس جراحة المخ والأعصاب والعمود الفقري في جامعة
+                جرافاسفالد
+                ألمانيا ومناقشة الحالات والعمليات الجراحية في المجالات التالية: أورام […]</p>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div>
+            <h2>اتصل بنا</h2>
+            <img src="css/images/logo7.jpg" alt="image">
+            <p>
+                ش12 السراى ميدان فيني الدقي ، الجيزه<br> قريب من فندق وكازينو شيراتون القاهرة
+            </p>
+        </div>
+        <div>
+
+            <a href="we.html">من نحن</a>
+            <a href="department.html">اقسامنا الطبية</a>
+            <a href="latest.html">اخر الاخبار</a>
+            <a href="">اتصل بنا</a>
+
+
+        </div>
+        <div>
+            <img src="css/images/logo2.png" alt="image">
+            <img src="css/images/logo3.png" alt="image">
+        </div>
+    </footer>
+</body>
+
+</html>
